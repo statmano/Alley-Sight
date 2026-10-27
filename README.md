@@ -11,6 +11,10 @@ npm run dev
 
 Create a production build with `npm run build`.
 
+## Deploy to GitHub Pages
+
+The `main` branch is built and deployed automatically with GitHub Actions. In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**. The workflow publishes the generated `dist` directory; do not publish the repository's source root.
+
 ## Geometry and conventions
 
 - The lane is 60 ft from the foul line to the head pin and 41.5 in wide, with 39 boards.
