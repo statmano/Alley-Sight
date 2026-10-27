@@ -11,9 +11,9 @@ npm run dev
 
 Create a production build with `npm run build`.
 
-## Deploy to GitHub Pages
+## Deploy to Netlify
 
-The `main` branch is built and deployed automatically with GitHub Actions. In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**. The workflow publishes the generated `dist` directory; do not publish the repository's source root.
+Connect this GitHub repository in Netlify and deploy the `main` branch. Netlify uses [`netlify.toml`](./netlify.toml) to run `npm run build` and publish the generated `dist` directory. Subsequent pushes to `main` are deployed automatically.
 
 ## Geometry and conventions
 
